@@ -1,0 +1,13 @@
+[FieldLogs]Active
+[FieldLogs]Active
+[FieldLogs]Active
+[FieldLogs]Active
+[FieldLogs]Active
+[FieldLogs]Active
+[FieldLogs]Active
+[PlayerLogs]Health: 100 Mana: 5 Key: 0
+[PlayerLogs]Health: 100 Mana: 10 Key: 0
+@r[PlayerLogs]
+Health: 100 Mana: 5 Key: 0
+[FieldLogs]
+Active

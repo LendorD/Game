@@ -1,0 +1,3 @@
+C:/Users/Lendor/CLionProjects/Oop/cmake-build-debug/CMakeFiles/Oop.dir
+C:/Users/Lendor/CLionProjects/Oop/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Lendor/CLionProjects/Oop/cmake-build-debug/CMakeFiles/rebuild_cache.dir
