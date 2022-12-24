@@ -9,7 +9,7 @@ class FieldView{
 public:
     explicit FieldView(Field *other);
     FieldView() = default;
-    void start(Field field);
+    void start(Field *field);
     bool GameOver(Field field);
 
     Field field;

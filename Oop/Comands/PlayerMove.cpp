@@ -4,30 +4,42 @@
 
 #include "PlayerMove.h"
 
-PlayerMove::PlayerMove(Field* map, Player* player):map(map),player(player){}
+PlayerMove::PlayerMove(Field* map):map(map){}
 
 void PlayerMove::Move(Field *map, char q) {
-    if(q == up)//        Up::Move(map);
-    if(q == down)//        down::Move(map);
-    if(q == left) //left::Move(map);
-    if(q == right)// right::Move(map);
-    ;
+    switch (MovesTable[q])
+    {
+        case PlayerMove::action::Up:
+            UpMove.Move(map);
+            break;
+        case PlayerMove::action::Down:
+            DownMove.Move(map);
+            break;
+        case PlayerMove::action::Left:
+            LeftMove.Move(map);
+            break;
+        case PlayerMove::action::Right:
+            RightMove.Move(map);
+            break;
+
+    }
 
 }
 
 void PlayerMove::ReadTxt(){
-    std::string line;
     in.open("move.txt");
+    char q;
     if (in.is_open())
     {
         for(int i = 0; i < 4; i++){
             std::getline(in, line);
-            char q = line[0];
-            if(i == 0) this->up = q;
-            if(i == 1) this->down = q;
-            if(i == 2) this->left = q;
-            if(i==3) this->right = q;
+            line = std::regex_replace(line, std::regex(" "), "");
+            q = line[0];
+            if(i == 0) MovesTable[q] = action::Up;
+            if(i == 1) MovesTable[q] = action::Down;
+            if(i == 2) MovesTable[q] = action::Left;
+            if(i==3) MovesTable[q] = action::Right;
         }
     }
-    in.close();     // закрываем файл
+    in.close();
 }

@@ -51,136 +51,164 @@ build cmake_object_order_depends_target_Oop: phony || CMakeFiles/Oop.dir
 
 build CMakeFiles/Oop.dir/test.cpp.obj: CXX_COMPILER__Oop_Debug C$:/Users/Lendor/CLionProjects/Oop/test.cpp || cmake_object_order_depends_target_Oop
   DEP_FILE = CMakeFiles\Oop.dir\test.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -g
   INCLUDES = -IC:/Users/Lendor/CLionProjects/Oop/Cell -IC:/Users/Lendor/CLionProjects/Oop/Event -IC:/Users/Lendor/CLionProjects/Oop/Field -IC:/Users/Lendor/CLionProjects/Oop/Player
   OBJECT_DIR = CMakeFiles\Oop.dir
   OBJECT_FILE_DIR = CMakeFiles\Oop.dir
 
 build CMakeFiles/Oop.dir/Cell/Cell.cpp.obj: CXX_COMPILER__Oop_Debug C$:/Users/Lendor/CLionProjects/Oop/Cell/Cell.cpp || cmake_object_order_depends_target_Oop
   DEP_FILE = CMakeFiles\Oop.dir\Cell\Cell.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -g
   INCLUDES = -IC:/Users/Lendor/CLionProjects/Oop/Cell -IC:/Users/Lendor/CLionProjects/Oop/Event -IC:/Users/Lendor/CLionProjects/Oop/Field -IC:/Users/Lendor/CLionProjects/Oop/Player
   OBJECT_DIR = CMakeFiles\Oop.dir
   OBJECT_FILE_DIR = CMakeFiles\Oop.dir\Cell
 
 build CMakeFiles/Oop.dir/Field/Field.cpp.obj: CXX_COMPILER__Oop_Debug C$:/Users/Lendor/CLionProjects/Oop/Field/Field.cpp || cmake_object_order_depends_target_Oop
   DEP_FILE = CMakeFiles\Oop.dir\Field\Field.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -g
   INCLUDES = -IC:/Users/Lendor/CLionProjects/Oop/Cell -IC:/Users/Lendor/CLionProjects/Oop/Event -IC:/Users/Lendor/CLionProjects/Oop/Field -IC:/Users/Lendor/CLionProjects/Oop/Player
   OBJECT_DIR = CMakeFiles\Oop.dir
   OBJECT_FILE_DIR = CMakeFiles\Oop.dir\Field
 
 build CMakeFiles/Oop.dir/Player/Player.cpp.obj: CXX_COMPILER__Oop_Debug C$:/Users/Lendor/CLionProjects/Oop/Player/Player.cpp || cmake_object_order_depends_target_Oop
   DEP_FILE = CMakeFiles\Oop.dir\Player\Player.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -g
   INCLUDES = -IC:/Users/Lendor/CLionProjects/Oop/Cell -IC:/Users/Lendor/CLionProjects/Oop/Event -IC:/Users/Lendor/CLionProjects/Oop/Field -IC:/Users/Lendor/CLionProjects/Oop/Player
   OBJECT_DIR = CMakeFiles\Oop.dir
   OBJECT_FILE_DIR = CMakeFiles\Oop.dir\Player
 
 build CMakeFiles/Oop.dir/Event/Event.cpp.obj: CXX_COMPILER__Oop_Debug C$:/Users/Lendor/CLionProjects/Oop/Event/Event.cpp || cmake_object_order_depends_target_Oop
   DEP_FILE = CMakeFiles\Oop.dir\Event\Event.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -g
   INCLUDES = -IC:/Users/Lendor/CLionProjects/Oop/Cell -IC:/Users/Lendor/CLionProjects/Oop/Event -IC:/Users/Lendor/CLionProjects/Oop/Field -IC:/Users/Lendor/CLionProjects/Oop/Player
   OBJECT_DIR = CMakeFiles\Oop.dir
   OBJECT_FILE_DIR = CMakeFiles\Oop.dir\Event
 
 build CMakeFiles/Oop.dir/Field/FieldView.cpp.obj: CXX_COMPILER__Oop_Debug C$:/Users/Lendor/CLionProjects/Oop/Field/FieldView.cpp || cmake_object_order_depends_target_Oop
   DEP_FILE = CMakeFiles\Oop.dir\Field\FieldView.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -g
   INCLUDES = -IC:/Users/Lendor/CLionProjects/Oop/Cell -IC:/Users/Lendor/CLionProjects/Oop/Event -IC:/Users/Lendor/CLionProjects/Oop/Field -IC:/Users/Lendor/CLionProjects/Oop/Player
   OBJECT_DIR = CMakeFiles\Oop.dir
   OBJECT_FILE_DIR = CMakeFiles\Oop.dir\Field
 
 build CMakeFiles/Oop.dir/Event/EventFactory.cpp.obj: CXX_COMPILER__Oop_Debug C$:/Users/Lendor/CLionProjects/Oop/Event/EventFactory.cpp || cmake_object_order_depends_target_Oop
   DEP_FILE = CMakeFiles\Oop.dir\Event\EventFactory.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -g
   INCLUDES = -IC:/Users/Lendor/CLionProjects/Oop/Cell -IC:/Users/Lendor/CLionProjects/Oop/Event -IC:/Users/Lendor/CLionProjects/Oop/Field -IC:/Users/Lendor/CLionProjects/Oop/Player
   OBJECT_DIR = CMakeFiles\Oop.dir
   OBJECT_FILE_DIR = CMakeFiles\Oop.dir\Event
 
 build CMakeFiles/Oop.dir/Event/EventEvil.cpp.obj: CXX_COMPILER__Oop_Debug C$:/Users/Lendor/CLionProjects/Oop/Event/EventEvil.cpp || cmake_object_order_depends_target_Oop
   DEP_FILE = CMakeFiles\Oop.dir\Event\EventEvil.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -g
   INCLUDES = -IC:/Users/Lendor/CLionProjects/Oop/Cell -IC:/Users/Lendor/CLionProjects/Oop/Event -IC:/Users/Lendor/CLionProjects/Oop/Field -IC:/Users/Lendor/CLionProjects/Oop/Player
   OBJECT_DIR = CMakeFiles\Oop.dir
   OBJECT_FILE_DIR = CMakeFiles\Oop.dir\Event
 
 build CMakeFiles/Oop.dir/Event/EventPretty.cpp.obj: CXX_COMPILER__Oop_Debug C$:/Users/Lendor/CLionProjects/Oop/Event/EventPretty.cpp || cmake_object_order_depends_target_Oop
   DEP_FILE = CMakeFiles\Oop.dir\Event\EventPretty.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -g
   INCLUDES = -IC:/Users/Lendor/CLionProjects/Oop/Cell -IC:/Users/Lendor/CLionProjects/Oop/Event -IC:/Users/Lendor/CLionProjects/Oop/Field -IC:/Users/Lendor/CLionProjects/Oop/Player
   OBJECT_DIR = CMakeFiles\Oop.dir
   OBJECT_FILE_DIR = CMakeFiles\Oop.dir\Event
 
 build CMakeFiles/Oop.dir/Cell/CellSign.cpp.obj: CXX_COMPILER__Oop_Debug C$:/Users/Lendor/CLionProjects/Oop/Cell/CellSign.cpp || cmake_object_order_depends_target_Oop
   DEP_FILE = CMakeFiles\Oop.dir\Cell\CellSign.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -g
   INCLUDES = -IC:/Users/Lendor/CLionProjects/Oop/Cell -IC:/Users/Lendor/CLionProjects/Oop/Event -IC:/Users/Lendor/CLionProjects/Oop/Field -IC:/Users/Lendor/CLionProjects/Oop/Player
   OBJECT_DIR = CMakeFiles\Oop.dir
   OBJECT_FILE_DIR = CMakeFiles\Oop.dir\Cell
 
 build CMakeFiles/Oop.dir/Cell/CellView.cpp.obj: CXX_COMPILER__Oop_Debug C$:/Users/Lendor/CLionProjects/Oop/Cell/CellView.cpp || cmake_object_order_depends_target_Oop
   DEP_FILE = CMakeFiles\Oop.dir\Cell\CellView.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -g
   INCLUDES = -IC:/Users/Lendor/CLionProjects/Oop/Cell -IC:/Users/Lendor/CLionProjects/Oop/Event -IC:/Users/Lendor/CLionProjects/Oop/Field -IC:/Users/Lendor/CLionProjects/Oop/Player
   OBJECT_DIR = CMakeFiles\Oop.dir
   OBJECT_FILE_DIR = CMakeFiles\Oop.dir\Cell
 
 build CMakeFiles/Oop.dir/Logs/LogReader.cpp.obj: CXX_COMPILER__Oop_Debug C$:/Users/Lendor/CLionProjects/Oop/Logs/LogReader.cpp || cmake_object_order_depends_target_Oop
   DEP_FILE = CMakeFiles\Oop.dir\Logs\LogReader.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -g
   INCLUDES = -IC:/Users/Lendor/CLionProjects/Oop/Cell -IC:/Users/Lendor/CLionProjects/Oop/Event -IC:/Users/Lendor/CLionProjects/Oop/Field -IC:/Users/Lendor/CLionProjects/Oop/Player
   OBJECT_DIR = CMakeFiles\Oop.dir
   OBJECT_FILE_DIR = CMakeFiles\Oop.dir\Logs
 
 build CMakeFiles/Oop.dir/Logs/LogPrint.cpp.obj: CXX_COMPILER__Oop_Debug C$:/Users/Lendor/CLionProjects/Oop/Logs/LogPrint.cpp || cmake_object_order_depends_target_Oop
   DEP_FILE = CMakeFiles\Oop.dir\Logs\LogPrint.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -g
   INCLUDES = -IC:/Users/Lendor/CLionProjects/Oop/Cell -IC:/Users/Lendor/CLionProjects/Oop/Event -IC:/Users/Lendor/CLionProjects/Oop/Field -IC:/Users/Lendor/CLionProjects/Oop/Player
   OBJECT_DIR = CMakeFiles\Oop.dir
   OBJECT_FILE_DIR = CMakeFiles\Oop.dir\Logs
 
 build CMakeFiles/Oop.dir/Logs/Message.cpp.obj: CXX_COMPILER__Oop_Debug C$:/Users/Lendor/CLionProjects/Oop/Logs/Message.cpp || cmake_object_order_depends_target_Oop
   DEP_FILE = CMakeFiles\Oop.dir\Logs\Message.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -g
   INCLUDES = -IC:/Users/Lendor/CLionProjects/Oop/Cell -IC:/Users/Lendor/CLionProjects/Oop/Event -IC:/Users/Lendor/CLionProjects/Oop/Field -IC:/Users/Lendor/CLionProjects/Oop/Player
   OBJECT_DIR = CMakeFiles\Oop.dir
   OBJECT_FILE_DIR = CMakeFiles\Oop.dir\Logs
 
 build CMakeFiles/Oop.dir/Comands/PlayerMove.cpp.obj: CXX_COMPILER__Oop_Debug C$:/Users/Lendor/CLionProjects/Oop/Comands/PlayerMove.cpp || cmake_object_order_depends_target_Oop
   DEP_FILE = CMakeFiles\Oop.dir\Comands\PlayerMove.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -g
   INCLUDES = -IC:/Users/Lendor/CLionProjects/Oop/Cell -IC:/Users/Lendor/CLionProjects/Oop/Event -IC:/Users/Lendor/CLionProjects/Oop/Field -IC:/Users/Lendor/CLionProjects/Oop/Player
   OBJECT_DIR = CMakeFiles\Oop.dir
   OBJECT_FILE_DIR = CMakeFiles\Oop.dir\Comands
 
-build CMakeFiles/Oop.dir/Comands/Up.cpp.obj: CXX_COMPILER__Oop_Debug C$:/Users/Lendor/CLionProjects/Oop/Comands/Up.cpp || cmake_object_order_depends_target_Oop
-  DEP_FILE = CMakeFiles\Oop.dir\Comands\Up.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+build CMakeFiles/Oop.dir/Comands/up.cpp.obj: CXX_COMPILER__Oop_Debug C$:/Users/Lendor/CLionProjects/Oop/Comands/up.cpp || cmake_object_order_depends_target_Oop
+  DEP_FILE = CMakeFiles\Oop.dir\Comands\up.cpp.obj.d
+  FLAGS = -g
   INCLUDES = -IC:/Users/Lendor/CLionProjects/Oop/Cell -IC:/Users/Lendor/CLionProjects/Oop/Event -IC:/Users/Lendor/CLionProjects/Oop/Field -IC:/Users/Lendor/CLionProjects/Oop/Player
   OBJECT_DIR = CMakeFiles\Oop.dir
   OBJECT_FILE_DIR = CMakeFiles\Oop.dir\Comands
 
 build CMakeFiles/Oop.dir/Comands/left.cpp.obj: CXX_COMPILER__Oop_Debug C$:/Users/Lendor/CLionProjects/Oop/Comands/left.cpp || cmake_object_order_depends_target_Oop
   DEP_FILE = CMakeFiles\Oop.dir\Comands\left.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -g
   INCLUDES = -IC:/Users/Lendor/CLionProjects/Oop/Cell -IC:/Users/Lendor/CLionProjects/Oop/Event -IC:/Users/Lendor/CLionProjects/Oop/Field -IC:/Users/Lendor/CLionProjects/Oop/Player
   OBJECT_DIR = CMakeFiles\Oop.dir
   OBJECT_FILE_DIR = CMakeFiles\Oop.dir\Comands
 
 build CMakeFiles/Oop.dir/Comands/down.cpp.obj: CXX_COMPILER__Oop_Debug C$:/Users/Lendor/CLionProjects/Oop/Comands/down.cpp || cmake_object_order_depends_target_Oop
   DEP_FILE = CMakeFiles\Oop.dir\Comands\down.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -g
   INCLUDES = -IC:/Users/Lendor/CLionProjects/Oop/Cell -IC:/Users/Lendor/CLionProjects/Oop/Event -IC:/Users/Lendor/CLionProjects/Oop/Field -IC:/Users/Lendor/CLionProjects/Oop/Player
   OBJECT_DIR = CMakeFiles\Oop.dir
   OBJECT_FILE_DIR = CMakeFiles\Oop.dir\Comands
 
 build CMakeFiles/Oop.dir/Comands/right.cpp.obj: CXX_COMPILER__Oop_Debug C$:/Users/Lendor/CLionProjects/Oop/Comands/right.cpp || cmake_object_order_depends_target_Oop
   DEP_FILE = CMakeFiles\Oop.dir\Comands\right.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -g
   INCLUDES = -IC:/Users/Lendor/CLionProjects/Oop/Cell -IC:/Users/Lendor/CLionProjects/Oop/Event -IC:/Users/Lendor/CLionProjects/Oop/Field -IC:/Users/Lendor/CLionProjects/Oop/Player
   OBJECT_DIR = CMakeFiles\Oop.dir
   OBJECT_FILE_DIR = CMakeFiles\Oop.dir\Comands
+
+build CMakeFiles/Oop.dir/Comands/MoveInterface.cpp.obj: CXX_COMPILER__Oop_Debug C$:/Users/Lendor/CLionProjects/Oop/Comands/MoveInterface.cpp || cmake_object_order_depends_target_Oop
+  DEP_FILE = CMakeFiles\Oop.dir\Comands\MoveInterface.cpp.obj.d
+  FLAGS = -g
+  INCLUDES = -IC:/Users/Lendor/CLionProjects/Oop/Cell -IC:/Users/Lendor/CLionProjects/Oop/Event -IC:/Users/Lendor/CLionProjects/Oop/Field -IC:/Users/Lendor/CLionProjects/Oop/Player
+  OBJECT_DIR = CMakeFiles\Oop.dir
+  OBJECT_FILE_DIR = CMakeFiles\Oop.dir\Comands
+
+build CMakeFiles/Oop.dir/GameStart.cpp.obj: CXX_COMPILER__Oop_Debug C$:/Users/Lendor/CLionProjects/Oop/GameStart.cpp || cmake_object_order_depends_target_Oop
+  DEP_FILE = CMakeFiles\Oop.dir\GameStart.cpp.obj.d
+  FLAGS = -g
+  INCLUDES = -IC:/Users/Lendor/CLionProjects/Oop/Cell -IC:/Users/Lendor/CLionProjects/Oop/Event -IC:/Users/Lendor/CLionProjects/Oop/Field -IC:/Users/Lendor/CLionProjects/Oop/Player
+  OBJECT_DIR = CMakeFiles\Oop.dir
+  OBJECT_FILE_DIR = CMakeFiles\Oop.dir
+
+build CMakeFiles/Oop.dir/SaveGame/SaveLevel.cpp.obj: CXX_COMPILER__Oop_Debug C$:/Users/Lendor/CLionProjects/Oop/SaveGame/SaveLevel.cpp || cmake_object_order_depends_target_Oop
+  DEP_FILE = CMakeFiles\Oop.dir\SaveGame\SaveLevel.cpp.obj.d
+  FLAGS = -g
+  INCLUDES = -IC:/Users/Lendor/CLionProjects/Oop/Cell -IC:/Users/Lendor/CLionProjects/Oop/Event -IC:/Users/Lendor/CLionProjects/Oop/Field -IC:/Users/Lendor/CLionProjects/Oop/Player
+  OBJECT_DIR = CMakeFiles\Oop.dir
+  OBJECT_FILE_DIR = CMakeFiles\Oop.dir\SaveGame
+
+build CMakeFiles/Oop.dir/SaveGame/Errors/FileDelete.cpp.obj: CXX_COMPILER__Oop_Debug C$:/Users/Lendor/CLionProjects/Oop/SaveGame/Errors/FileDelete.cpp || cmake_object_order_depends_target_Oop
+  DEP_FILE = CMakeFiles\Oop.dir\SaveGame\Errors\FileDelete.cpp.obj.d
+  FLAGS = -g
+  INCLUDES = -IC:/Users/Lendor/CLionProjects/Oop/Cell -IC:/Users/Lendor/CLionProjects/Oop/Event -IC:/Users/Lendor/CLionProjects/Oop/Field -IC:/Users/Lendor/CLionProjects/Oop/Player
+  OBJECT_DIR = CMakeFiles\Oop.dir
+  OBJECT_FILE_DIR = CMakeFiles\Oop.dir\SaveGame\Errors
 
 
 # =============================================================================
@@ -190,7 +218,7 @@ build CMakeFiles/Oop.dir/Comands/right.cpp.obj: CXX_COMPILER__Oop_Debug C$:/User
 #############################################
 # Link the executable Oop.exe
 
-build Oop.exe: CXX_EXECUTABLE_LINKER__Oop_Debug CMakeFiles/Oop.dir/test.cpp.obj CMakeFiles/Oop.dir/Cell/Cell.cpp.obj CMakeFiles/Oop.dir/Field/Field.cpp.obj CMakeFiles/Oop.dir/Player/Player.cpp.obj CMakeFiles/Oop.dir/Event/Event.cpp.obj CMakeFiles/Oop.dir/Field/FieldView.cpp.obj CMakeFiles/Oop.dir/Event/EventFactory.cpp.obj CMakeFiles/Oop.dir/Event/EventEvil.cpp.obj CMakeFiles/Oop.dir/Event/EventPretty.cpp.obj CMakeFiles/Oop.dir/Cell/CellSign.cpp.obj CMakeFiles/Oop.dir/Cell/CellView.cpp.obj CMakeFiles/Oop.dir/Logs/LogReader.cpp.obj CMakeFiles/Oop.dir/Logs/LogPrint.cpp.obj CMakeFiles/Oop.dir/Logs/Message.cpp.obj CMakeFiles/Oop.dir/Comands/PlayerMove.cpp.obj CMakeFiles/Oop.dir/Comands/Up.cpp.obj CMakeFiles/Oop.dir/Comands/left.cpp.obj CMakeFiles/Oop.dir/Comands/down.cpp.obj CMakeFiles/Oop.dir/Comands/right.cpp.obj
+build Oop.exe: CXX_EXECUTABLE_LINKER__Oop_Debug CMakeFiles/Oop.dir/test.cpp.obj CMakeFiles/Oop.dir/Cell/Cell.cpp.obj CMakeFiles/Oop.dir/Field/Field.cpp.obj CMakeFiles/Oop.dir/Player/Player.cpp.obj CMakeFiles/Oop.dir/Event/Event.cpp.obj CMakeFiles/Oop.dir/Field/FieldView.cpp.obj CMakeFiles/Oop.dir/Event/EventFactory.cpp.obj CMakeFiles/Oop.dir/Event/EventEvil.cpp.obj CMakeFiles/Oop.dir/Event/EventPretty.cpp.obj CMakeFiles/Oop.dir/Cell/CellSign.cpp.obj CMakeFiles/Oop.dir/Cell/CellView.cpp.obj CMakeFiles/Oop.dir/Logs/LogReader.cpp.obj CMakeFiles/Oop.dir/Logs/LogPrint.cpp.obj CMakeFiles/Oop.dir/Logs/Message.cpp.obj CMakeFiles/Oop.dir/Comands/PlayerMove.cpp.obj CMakeFiles/Oop.dir/Comands/up.cpp.obj CMakeFiles/Oop.dir/Comands/left.cpp.obj CMakeFiles/Oop.dir/Comands/down.cpp.obj CMakeFiles/Oop.dir/Comands/right.cpp.obj CMakeFiles/Oop.dir/Comands/MoveInterface.cpp.obj CMakeFiles/Oop.dir/GameStart.cpp.obj CMakeFiles/Oop.dir/SaveGame/SaveLevel.cpp.obj CMakeFiles/Oop.dir/SaveGame/Errors/FileDelete.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Oop.dir

@@ -4,10 +4,13 @@
 
 #ifndef OOP_LEFT_H
 #define OOP_LEFT_H
+#include "MoveInterface.h"
+class Field;
 
-
-class left {
-
+class left:MoveInterface {
+public:
+    left();
+    void Move(Field *map) override;
 };
 
 

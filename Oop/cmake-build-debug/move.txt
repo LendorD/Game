@@ -1,0 +1,4 @@
+    q Up
+w Down
+d Left
+a Right

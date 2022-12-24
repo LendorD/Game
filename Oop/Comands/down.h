@@ -4,10 +4,13 @@
 
 #ifndef OOP_DOWN_H
 #define OOP_DOWN_H
+#include "MoveInterface.h"
+class Field;
 
-
-class down {
-
+class down:MoveInterface {
+public:
+    down();
+    void Move(Field *map) override;
 };
 
 

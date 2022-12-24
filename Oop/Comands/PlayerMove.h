@@ -5,25 +5,31 @@
 #ifndef OOP_PLAYERMOVE_H
 #define OOP_PLAYERMOVE_H
 
+#include <map>
+#include "stdio.h"
+#include "regex"
 #include "Field.h"
-#include "Player.h"
 #include "fstream"
-#include "Up.h"
+#include "up.h"
 #include "down.h"
 #include "left.h"
 #include "right.h"
 class PlayerMove {
-    PlayerMove(Field* map, Player* player);
-    ~PlayerMove();
+public:
+    enum action{Up, Down, Right, Left};
+    std::map<char, enum action> MovesTable;
+    PlayerMove(Field* map);
+    ~PlayerMove() = default;
     Field* map;
-    Player* player;
     void Move(Field* map, char q);
     void ReadTxt();
+    std::string line;
     std::ifstream in;
-    char up;
-    char down;
-    char left;
-    char right;
+    up UpMove;
+    down DownMove;
+    right RightMove;
+    left LeftMove;
+
 };
 
 

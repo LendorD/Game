@@ -22,6 +22,7 @@ void Field::RandomSign() {
     if (randPosY == y && randPosX == x){ return;}
     CellSign* sign = ListSign.at(pos_);
     if(sign == ListSign.at(0)) map[randPosX][randPosY].setAvailable(true);
+    else map[randPosX][randPosY].setAvailable(false);
     map[randPosX][randPosY].setSign(sign);
     if (pos_){
         map[randPosX][randPosY].setPassable(true);
@@ -56,6 +57,7 @@ Field::Field(int lenght, int width):lenght(lenght = 10),width(width = 10),player
     map[x][y].setAvailable(false);// доступна ли клетка
     map[x][y].setPassable(true);//проходили ли мы её
     map[x][y].setSign(new PlayerSign);
+    createField = true;
 }
 void Field::swap(Field &obj){
     std::swap(lenght, obj.lenght);
@@ -118,6 +120,13 @@ void Field::ChangesFrame(char stateAction) {
 void Field::NoneAction(){
 }
 
+void Field::SetField(std::vector<std::vector<Cell>> map){
+    this->map = map;
+    this->lenght = (int) map.size();
+    this->width = (int) map.at(0).size();
+}
+
+
 
 void Field::LeftAction(){
     if(player->getMana() < 20)map[ExitPosX][ExitPosY].setAvailable(true);
@@ -128,7 +137,7 @@ void Field::LeftAction(){
     }
     int y = PlayerY;
     --y;
-    if(not map[PlayerX][y].getAvailablee()) {
+    if(!map[PlayerX][y].getAvailablee()) {
         Event* event = map[PlayerX][y].getEvent();
         event ->init(player, this);
         event ->StateEvent();
@@ -147,7 +156,7 @@ void Field::rightAction(){
     }
     int y = PlayerY;
     ++y;
-    if(not map[PlayerX][y].getAvailablee()) {
+    if(!map[PlayerX][y].getAvailablee()) {
         Event* event = map[PlayerX][y].getEvent();
         event ->init(player, this );
         event ->StateEvent();
@@ -169,7 +178,7 @@ void Field::UpAction(){
     }
     int x = PlayerX;
     --x;
-    if(not map[x][PlayerY].getAvailablee() and f) {
+    if(!map[x][PlayerY].getAvailablee() and f) {
         Event *event = map[x][PlayerY].getEvent();
         event->init(player, this);
         event->StateEvent();
@@ -193,7 +202,7 @@ void Field::DownAction(){
     }
     int x = PlayerX;
     ++x;
-    if(not map[x][PlayerY].getAvailablee() and f) {
+    if(!map[x][PlayerY].getAvailablee() and f) {
         Event* event = map[x][PlayerY].getEvent();
         event ->init(player, this);
         event -> StateEvent();
@@ -203,5 +212,4 @@ void Field::DownAction(){
     }
 }
 
-void Field::ChangesAction() {}
 

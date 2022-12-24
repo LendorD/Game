@@ -13,17 +13,16 @@
 class Field {
 private:
     typedef std::vector<std::vector<Cell>> field; //задаем псевдоним для типа данных
-    field map;
-    //Field CopyMap;
     int lenght, width;
-    std::vector<CellSign*> ListSign;
 public:
+    std::vector<CellSign*> ListSign;
+    field map;
     explicit Field(int lenght = 10, int weight = 10);
     Field(const Field& obj);
     Field(Field&& obj) noexcept ;
     void swap(Field &obj);
+    void SetField(std::vector<std::vector<Cell>> map);
 
-    void ChangesAction();
     void ChangesFrame(char stateAction);
     void RandomSign();
     void NoneAction();
@@ -31,17 +30,18 @@ public:
     void rightAction();
     void UpAction();
     void DownAction();
-    void TpAction();
 
     bool StatusField();
 
     Cell getCell(int h, int w);
     int getWigth();
     int getLenght();
+
     Player* player;
     int PlayerX;
     int PlayerY;
     int ExitPosX, ExitPosY;
+    bool createField;
 };
 
 
