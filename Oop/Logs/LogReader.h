@@ -7,7 +7,7 @@
 #include "iostream"
 #include "vector"
 #include "Field.h"
-v
+
 #include "sstream"
 #include "Message.h"
 class LogReader {

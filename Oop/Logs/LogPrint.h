@@ -4,6 +4,8 @@
 
 #ifndef OOP_LOGPRINT_H
 #define OOP_LOGPRINT_H
+
+#include <fstream>
 #include "LogReader.h"
 
 class FilePrint{
